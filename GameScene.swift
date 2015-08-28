@@ -39,13 +39,13 @@ class GameScene: CCNode {
         
         else {
             println("敗")
-//            endGame()
+            endGame()
         }
     }
     
-//    func endGame () {
-//        var mainScene : CCScene =  CCBReader.loadAsScene("MainScene")
-//        CCDirector.sharedDirector().replaceScene(mainScene)
-//    }
+    func endGame () {
+        var mainScene : CCScene =  CCBReader.loadAsScene("MainScene")
+        CCDirector.sharedDirector().replaceScene(mainScene)
+    }
     
 }
